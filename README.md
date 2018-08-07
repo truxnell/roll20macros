@@ -25,8 +25,6 @@ Copy as a new macro, ensure 'Show as Token Action' is selected
 
 Copy as a new macro, ensure 'Show as Token Action' is selected.  Select token and then select button.
 
-Credit:  https://app.roll20.net/forum/post/5591526/5e-ogl-universal-skill-check-macro-updated-for-v2-dot-0
-
 ```
 @{selected|wtype}&{template:default} {{name=Ability Score for @{selected|character_name}}} {{?{Ability Score
   | Strength, Strength +@{selected|strength_mod}@{selected|jack_bonus}=[[@{selected|d20}+@{selected|strength_mod}@{selected|jack_bonus}]] - [[@{selected|d20}+@{selected|strength_mod}@{selected|jack_bonus}]]
@@ -40,6 +38,7 @@ Credit:  https://app.roll20.net/forum/post/5591526/5e-ogl-universal-skill-check-
 
 # Skill Check
 
+Credit:  https://app.roll20.net/forum/post/5591526/5e-ogl-universal-skill-check-macro-updated-for-v2-dot-0
 
 ```
 @{selected|wtype}&{template:simple} @{selected|rtype}?{Skill
