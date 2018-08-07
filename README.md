@@ -66,7 +66,7 @@ Credit:  https://app.roll20.net/forum/post/5591526/5e-ogl-universal-skill-check-
 
 **Effect:** Whisper the selected character a list of saves, abilitie checks and their tool.
 
-``
+```
 /w "@{selected|character_name}" &{template:atk} {{desc=**Saving Throws**
 [Strength](~Selected|strength_save) **|** [Dexterity](~Selected|dexterity_save) **|** [Constitution](~Selected|constitution_save)
 [Intelligence](~Selected|intelligence_save) **|** [Wisdom](~Selected|wisdom_save) **|** [Charisma](~Selected|charisma_save)
@@ -92,7 +92,7 @@ Credit:  https://app.roll20.net/forum/post/5591526/5e-ogl-universal-skill-check-
 **Tools**
 [@{Selected|repeating_tool_$0_toolname}](~Selected|repeating_tool_$0_tool)
 }}
-``
+```
 
 # Spellbook (WIP)
 
